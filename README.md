@@ -179,3 +179,10 @@ Column Name | Description
 `release_date` | Release date of the selected patch version (column `closest_fix`)
 `fixed_version_match` | Indicates how the patch version has been found (`exact-match` if the version identifier from OSV is identical the one in Maven Central, `starts-with` if the version identifier in Maven Central starts with the one provided in OSV, and `no-match` if no version can be found in Maven Central)
 `fixed_version_found`| Only populated if previous column is `starts-with`
+
+## License information related to source data
+
+The data set aggregates and remixes data obtained from the following sources:
+- Data aggregated by OSV is [available under different Creative Commons (CC) licenses](https://github.com/google/osv.dev#current-data-sources)
+- Data from Libraries.io, authored by Tidelift, is [available](https://libraries.io/data) under CC BY-SA 4.0
+- Data from Maven Central has been obtained following their [terms of use](https://central.sonatype.org/terms.html)
