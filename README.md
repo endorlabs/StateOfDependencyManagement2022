@@ -1,7 +1,9 @@
 # State of Dependency Management 2022
 
 This repository contains the data set on the basis of which the statistics and
-charts in Endor Labs' [2022 State of Dependency Management](link) report have been created.
+charts in Endor Labs' [2022 State of Dependency
+Management](https://www.endorlabs.com/state-of-dependency-management) report
+have been created.
 
 Starting point are the packages mentioned in Appendices A-H of [Census
 II](https://www.linuxfoundation.org/press/press-release/the-linux-foundation-and-harvards-lab-for-innovation-science-release-census-of-most-widely-used-open-source-application-libraries).
@@ -180,7 +182,7 @@ Column Name | Description
 `fixed_version_match` | Indicates how the patch version has been found (`exact-match` if the version identifier from OSV is identical the one in Maven Central, `starts-with` if the version identifier in Maven Central starts with the one provided in OSV, and `no-match` if no version can be found in Maven Central)
 `fixed_version_found`| Only populated if previous column is `starts-with`
 
-## License information related to source data
+## License information of source data
 
 The data set aggregates and remixes data obtained from the following sources:
 - Data aggregated by OSV is [available under different Creative Commons (CC) licenses](https://github.com/google/osv.dev#current-data-sources)
